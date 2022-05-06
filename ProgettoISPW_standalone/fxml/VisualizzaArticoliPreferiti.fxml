@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="433.0" prefWidth="444.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="articoliPreferiti" layoutX="-2.0" layoutY="-1.0" prefHeight="433.0" prefWidth="444.0">
+        <columns>
+          <TableColumn fx:id="colonnaNome" prefWidth="75.0" text="Nome">
+          <cellValueFactory><PropertyValueFactory property="nome"/></cellValueFactory>
+          </TableColumn>
+          <TableColumn fx:id="colonnaDescrizione" prefWidth="192.0" text="Descrizione">
+          <cellValueFactory><PropertyValueFactory property="descrizione"/></cellValueFactory>
+          </TableColumn>
+            <TableColumn fx:id="colonnaPrezzo" prefWidth="60.0" text="Prezzo"
+            <cellValueFactory><PropertyValueFactory property="prezzo"/></cellValueFactory>
+          </TableColumn>>
+            <TableColumn fx:id="colonnaVenditore" prefWidth="116.0" text="Venditore">
+            <cellValueFactory><PropertyValueFactory property="venditore"/></cellValueFactory>
+          </TableColumn>
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
